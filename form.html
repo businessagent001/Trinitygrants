@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: var(--off-white);">
+    <div class="wrapper">
+
+
+          <!-- nav bar starts here -->
+          <nav>
+            <!-- logo -->
+            <div class="logo">
+                
+                <a href="/home.html">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 126 112.07"><defs><style>.cls-1{fill:#22205f;}.cls-2{fill:url(#linear-gradient);}.cls-3{font-size:12px;fill:#231f20;font-family:MongolianBaiti, Mongolian Baiti;}</style><linearGradient id="linear-gradient" x1="71.14" y1="12.3" x2="71.71" y2="69.96" gradientUnits="userSpaceOnUse"><stop offset="0.36" stop-color="#b9e5fb"/><stop offset="0.53" stop-color="#7b99b4"/><stop offset="0.7" stop-color="#465776"/><stop offset="0.84" stop-color="#20284a"/><stop offset="0.94" stop-color="#090b2f"/><stop offset="1" stop-color="#000025"/></linearGradient></defs><path class="cls-1" d="M20.73,85.91H18.09c-4.51,0-5.72.91-6.51,2a13,13,0,0,0-1.76,4.48H9c.28-3.23.49-7.23.59-9.2h.62c.6.87,1.34,1,2.65,1h20a2.13,2.13,0,0,0,2.13-1h.69c0,1.62.17,5.53.46,8.76l-.81.13c-.55-2.46-1.06-3.43-1.86-4.37-.92-1.13-2-1.78-5.39-1.78H24.62v23.27c0,3.76.38,4.65,4.84,4.92v.84H15.74v-.84c4.58-.27,5-1.16,5-4.92" transform="translate(-9 -16.3)"/><path class="cls-1" d="M55.4,86.43a2.44,2.44,0,0,1,2.45,2.46,2.47,2.47,0,0,1-2.5,2.43,2.45,2.45,0,1,1,0-4.89m-1.67,14.15c0-3.09-.28-3.36-3-3.94v-.73a31.57,31.57,0,0,0,6.58-2V110c0,3.1.4,3.78,3.44,4.09v.84H50v-.84c3.17-.31,3.64-1,3.64-4.09Z" transform="translate(-9 -16.3)"/><path class="cls-1" d="M65.73,100.59c0-3.12-.28-3.29-2.93-4V95.9a28.69,28.69,0,0,0,6.52-2v3.92c1-.63,2.22-1.52,3.55-2.31a7.16,7.16,0,0,1,3.92-1.43c4,0,6.25,2.61,6.25,6.85v9.17c0,3.24.29,3.76,3,4v.85H75.92v-.85c3-.26,3.53-1,3.53-4.58v-7.3c0-3.06-1-5.67-4.78-5.67A8.5,8.5,0,0,0,69.32,99v11.09c0,3,.38,3.75,3.2,4v.84H62v-.84c3.28-.27,3.71-1,3.71-4.1" transform="translate(-9 -16.3)"/><path class="cls-1" d="M92.78,86.43a2.44,2.44,0,0,1,2.45,2.46,2.47,2.47,0,0,1-2.5,2.43,2.45,2.45,0,1,1,0-4.89m-1.67,14.15c0-3.09-.28-3.36-3-3.94v-.73a31.31,31.31,0,0,0,6.57-2V110c0,3.1.4,3.78,3.45,4.09v.84H87.63v-.84c3-.31,3.43-1,3.43-4.09Z" transform="translate(-9 -16.3)"/><path class="cls-1" d="M125.47,94.64v.84c2.81.35,3.24.79,2.48,3.39-.49,1.76-3.23,8.64-4.66,11.75l-4.66-12.38c-.83-2.1-.31-2.38,2-2.76v-.84H106.51V88.42l-.58-.16-3,3.54v2.84h-2.13l-1.38,1,.22.49h3v13.73c.25,3.72,1.81,5.71,5,5.71a3.25,3.25,0,0,0,1.59-.49l3.87-1.84-.32-.75a8.16,8.16,0,0,1-3.26.75c-1.3,0-3-.81-3-4.91V95.82h4.88c2,0,2.76.93,3.78,3.52,1.39,3.52,3.79,9.22,5.75,14.85a2.47,2.47,0,0,1,0,2,17.27,17.27,0,0,1-1.43,3.09,14.19,14.19,0,0,1-3.73,4.37c-.75.56-1.32,1-1.32,1.69a2.52,2.52,0,0,0,2.45,2.2,1.45,1.45,0,0,0,1.52-1.16c.74-2.65,1.57-5,5-12.62,3.5-8,5.27-12.12,6.7-14.82s2.45-3.06,5-3.47v-.84" transform="translate(-9 -16.3)"/><path class="cls-1" d="M36.55,100.54c0-3.18-.27-3.49-3.08-3.89V95.9a24.48,24.48,0,0,0,6.67-2v5.39h.1C41.43,97.13,43.65,94,45.93,94A2.35,2.35,0,0,1,47,98.56a1,1,0,0,1-1.17-.06,2.89,2.89,0,0,0-2.14-1c-1,0-2.22.93-3.55,3.74V110c0,3.1.41,3.84,4.2,4.11v.84H33.24v-.84c2.87-.27,3.31-1,3.31-4.06" transform="translate(-9 -16.3)"/><path class="cls-2" d="M58.11,25.81l.22-.11A21.13,21.13,0,0,1,64.83,23a29.06,29.06,0,0,1,5.26,2.31,30.82,30.82,0,0,0-5.53,3.83,33.62,33.62,0,0,0-3.49-1.44,16.59,16.59,0,0,0-7.25,3.77,28.9,28.9,0,0,1,4.29-5.7m13.67-8.22a35.19,35.19,0,0,1,11.85,6.56,24.17,24.17,0,0,0-5.21-2.21,47.91,47.91,0,0,0-6.63,2.53,47.32,47.32,0,0,0-6.62-2.53,23.32,23.32,0,0,0-5.51,2.39l0,0a35.09,35.09,0,0,1,12.14-6.76M89.5,31.26a16.87,16.87,0,0,0-7-3.52A33.74,33.74,0,0,0,79,29.18a31.11,31.11,0,0,0-5.52-3.83A28.76,28.76,0,0,1,78.77,23a21.15,21.15,0,0,1,6.49,2.65,29.43,29.43,0,0,1,4.24,5.57M71.79,34.39a23,23,0,0,0-4.72-3.85,25.38,25.38,0,0,1,4.72-4.12,24.85,24.85,0,0,1,4.74,4.12,23.1,23.1,0,0,0-4.74,3.85M48.64,79.16V54.39c0-9.36,1.76-16.32,4.45-21.54a15.67,15.67,0,0,1,7.57-4,25.4,25.4,0,0,1,2.75,1.39c-5.32,5.18-9.35,13.24-9.35,26.2v19.4l5.09-3.12V56.34C59.15,44.56,62,37,65.9,32a19.84,19.84,0,0,1,4.15,4.54C66.71,41,64.3,47.8,64.3,58.1V69.56L68.46,67V58c0-8.25,1.35-14.14,3.33-18.4,2,4.26,3.34,10.15,3.34,18.4v9.12l4.16,2.54V58.1c0-10.3-2.41-17.06-5.75-21.61A20.06,20.06,0,0,1,77.69,32c3.87,5,6.76,12.61,6.76,24.39V72.83L89.53,76V56.44c0-13-4-21-9.35-26.2a26.35,26.35,0,0,1,2.75-1.39,15.69,15.69,0,0,1,7.31,3.75c2.74,5.25,4.55,12.28,4.55,21.79V79.17l5.84,3.58V54.49c0-27.22-16.55-34.85-28.85-38.19-12.37,3.34-29,11-29,38.19V82.76Z" transform="translate(-9 -16.3)"/><text class="cls-3" transform="translate(37.71 109.46)">GRANTS</text></svg>
+                    <!-- <img src="/pycs/Asset 1@4x-100.jpg" alt=""> -->
+                </a>
+        
+            </div>
+            <!-- nav tabs -->
+            <div class="tabs">
+                
+                <a  href="/home.html" class="page-1">HOME</a>
+                <a  href="#" class="page-2">  FORM</a>
+
+            </div>
+
+        </nav>
+        <!-- nav bar ends here -->
+
+
+
+        <!-- form starts here -->
+        <h1>
+            Registration form
+        </h1>
+        <form action="https://getform.io/f/lbkomrgb" method="post" class="" id="reg-form" >
+
+            <div class="form-container">
+                
+                <div class="form-column darc">
+                    <h2>BIO-DATA</h2>
+                    <label for="surname">Surname</label>
+                    <input type="text" name="candidate surname" id="surname" placeholder="input your surname" required>
+                
+    
+                    <label for="names">First name</label>
+                    <input type="text" name="candidate name" id="names" placeholder="input your first name" required>
+                
+    
+                    <label for="date of birth">date of birth</label>
+                    <input type="date" name="dob" id="date of birth" required placeholder="enter your date of birth">
+                
+    
+                    <!-- <div>
+                        
+                        <label for="gender">Gender</label>
+                      
+                            <input type="radio" name="gender" id="male" value="male">
+                            <input type="radio" name="gender" id="female"value="female" >
+                            <input type="radio" name="gender" id="other" value="other">
+                    </div>
+                        -->
+                            
+                    
+                
+    
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="enter your email" >
+                
+                
+                    <label for="telephone number">Telephone number</label>
+                    <input type="tel" name="telephone number" id="telephone number" >
+                </div>
+    
+                
+                <div class="form-column lyght">
+                    <h2>GRANT APPLICATION</h2>
+                    <label for="grant amount">Select Grant Range</label>
+                    <select name="grant amount" id="grant amount" required>
+                        <option value="$100-$999">$100-$999</option>
+                        <option value="$10,000-$99,999">$10,000-$99,999</option>
+                        <option value="$100,000-$999,999">$100,000-$999,999</option>
+                        <option value="$1,000,000-$9,999,999">$1,000,000-$9,999,999</option>
+                        <option value="$10,000,000 and above">$10,000,000 and above</option>
+                    </select>
+                    <!-- <input type="hidden" name="" id=""> -->
+    
+                    <label for="specify amount">specify amount</label>
+                    <input type="text" name="specify amount" id="" required>
+    
+    
+    
+                    <label for="reason">State your reason for the grant</label>
+                    <textarea name="reason" id="reason" cols="50" rows="17" required></textarea>
+    
+                    
+                </div>
+    
+            </div>
+
+
+            <div class="submit-container">
+                <input type="submit" value="APPLY" class="sub-btn">
+            </div>
+
+           
+            
+           
+            
+
+
+            
+
+        </form>
+
+
+        <!-- footer starts here -->
+        <section class="footer">
+            <footer>
+                <span>Trinity Grant Institute -  2024
+                    <br> 
+                   
+                </span> <br> 
+                <span>
+                    <em><i>#12 Valley View Ave. 
+                        North Lake Superior, Michigan
+                        United States of America</i>
+                    </em>
+                </span>
+                <span>
+                    +1 (458) 266-7147 <br>   
+                    
+                </span><br> 
+                <span style="flex-direction: row; gap:40px;">
+                    <a href="/home.html">HOME</a> 
+                    <a href="#">FORM</a>
+                </span>
+               <span id="cert">
+                    <img src="/pycs/linkedin_thumb_CGFM_Red-01.png" alt="">
+                    <img src="/pycs/OIP__2_-removebg-preview.png" alt="">
+                    <img src="/pycs/us d of s.png" alt="">
+               </span>
+               <span>
+                 <img src="/pycs/unnamed.jpg" alt="" class="footer-banner">
+               </span>
+            </footer>
+        </section>
+            <!-- footer ends here  -->
+
+    </div>
+    <!-- java here -->
+    <script>
+        const constraints = {
+            name: {
+                presence: { allowEmpty: false }
+            },
+            email: {
+                presence: { allowEmpty: false },
+                email: true
+            },
+            telephone_number: {
+                presence: { allowEmpty: false }
+            }
+        };
+      
+        const form = document.getElementById('reg-form');
+      
+        form.addEventListener('submit', function (event) {
+          const formValues = {
+              name: form.elements.name.value,
+              email: form.elements.email.value,
+              telephone_number: form.elements.message.value
+          };
+      
+          const errors = validate(formValues, constraints);
+      
+          if (errors) {
+            event.preventDefault();
+            const errorMessage = Object
+                .values(errors)
+                .map(function (fieldValues) { return fieldValues.join(', ')})
+                .join("\n");
+      
+            alert(errorMessage);
+          }
+        }, false);
+      </script>
+</body>
+</html>
